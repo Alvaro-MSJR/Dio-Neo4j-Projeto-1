@@ -1,0 +1,55 @@
+	************************************
+		VERSÃO ARROW APP = A MINHA
+	************************************
+	
+// Limpar o banco de dados existente
+MATCH (n) DETACH DELETE n;
+
+CREATE (:Director {name: "Vince Gilligan"})-[:DIRECTED]->(n5:Series {title: "Breaking Bad"})<-[:ACTED_IN]-(:Actor {name: "Bryan Cranston"}),
+(:User {name: "Ricardo Tavares"})-[:WATCHED {rating: 8}]->(n5)-[:IN_GENRE]->(:Genre {type: "Policial Investigativo"}),
+(:Actor {name: "Sandra Bullock"})-[:ACTED_IN]->(n10:Movie {title: "Gravidade"})<-[:DIRECTED]-(:Director {name: "Alfonso Cuarón"}),
+(:User {name: "Ricardo Tavares"})-[:WATCHED {rating: 8}]->(n14:Movie {title: "O Justiceiro"})-[:IN_GENRE]->(:Genre {type: "Ação"}),
+(:Actor {name: "Jon Bernthal"})-[:ACTED_IN]->(n14)<-[:DIRECTED]-(:Director {name: "Steve Lightfoot"}),
+(:User {name: "Sr. Carvalho"})-[:WATCHED {rating: 7}]->(n19:Movie {title: "2001: Uma Odisseia no Espaço"})<-[:ACTED_IN]-(:Actor {name: "Keir Dullea"}),
+(:Director {name: "Stanley Kubrick"})-[:DIRECTED]->(n19)-[:IN_GENRE]->(:Genre {type: "Ficção Científica"}),
+(:User {name: "Ricardo Tavares"})-[:WATCHED {rating: 9}]->(n10)-[:IN_GENRE]->(:Genre {type: "Ficção Científica"}),
+(:Actor {name: "Malcolm McDowell"})-[:ACTED_IN]->(n26:Movie {title: "Laramja Mecânica"})<-[:DIRECTED]-(:Director {name: "Stanley Kubrick"}),
+(:User {name: "Ana Silva"})-[:WATCHED {rating: 9}]->(n26)-[:IN_GENRE]->(:Genre {type: "Ficção Científica"}),
+(:User {name: "João Mendes"})-[:WATCHED {rating: 8}]->(n32:Movie {title: "O Poderoso Chefão"})-[:IN_GENRE]->(:Genre {type: "Policial Investigativo"}),
+(:Actor {name: "Al Pacino"})-[:ACTED_IN]->(n32)<-[:DIRECTED]-(:Director {name: "Francis Ford Coppola"}),
+(:Actor {name: "Harrison Ford"})-[:ACTED_IN]->(n36:Movie {title: "Blade Runner: O Caçador de Androides"})<-[:DIRECTED]-(:Director {name: "Ridley Scott"}),
+(:User {name: "Pedro Santos"})-[:WATCHED {rating: 9}]->(n36)-[:IN_GENRE]->(:Genre {type: "Ficção Científica"}),
+(:Actor {name: "Harrison Ford"})-[:ACTED_IN]->(n41:Movie {title: "Os Caçadores da Arca Perdidar de Androides"})<-[:DIRECTED]-(:Director {name: "Steven Spielberg"}),
+(:User {name: "Carla Lima"})-[:WATCHED {rating: 9}]->(n41)-[:IN_GENRE]->(:Genre {type: "Ação"}),
+(:Actor {name: "Jim Caviezel"})-[:ACTED_IN]->(n46:Movie {title: "Cruzada"})<-[:DIRECTED]-(:Director {name: "Mel Gibson"}),
+(:User {name: "Maria Oliveira"})-[:WATCHED {rating: 9}]->(n46)-[:IN_GENRE]->(:Genre {type: "Cristão"}),
+(:Actor {name: "Gael García Bernal"})-[:ACTED_IN]->(n52:Movie {title: "Diários de Motocicleta"})<-[:DIRECTED]-(:Director {name: "Walter Salles"}),
+(:User {name: "Paulo Rocha"})-[:WATCHED {rating: 9}]->(n52)-[:IN_GENRE]->(:Genre {type: "Documentário"}),
+(:Actor {name: "Wagner Moura"})-[:ACTED_IN]->(n57:Movie {title: "Tropa de Elite"})<-[:DIRECTED]-(:Director {name: "José Padilha"}),
+(:User {name: "Juliana Alves"})-[:WATCHED {rating: 9}]->(n57)-[:IN_GENRE]->(:Genre {type: "Policial Investigativo"}),
+(:Actor {name: "Brad Pitt"})-[:ACTED_IN]->(n62:Movie {title: "O Curioso Caso de Benjamin Button"})<-[:DIRECTED]-(:Director {name: "David Fincher"}),
+(:User {name: "Sofia Ribeiro"})-[:WATCHED {rating: 9}]->(n62)-[:IN_GENRE]->(:Genre {type: "Romance"}),
+(:Actor {name: "Owen Wilson (voz)"})-[:ACTED_IN]->(n67:Movie {title: "Carros"})<-[:DIRECTED]-(:Director {name: "John Lasseter"}),
+(:User {name: "Lucas Martins"})-[:WATCHED {rating: 9}]->(n67)-[:IN_GENRE]->(:Genre {type: "Ação"}),
+(:Actor {name: "Amy Adams"})-[:ACTED_IN]->(n72:Movie {title: "A Chegada"})<-[:DIRECTED]-(:Director {name: "Denis Villeneuve"}),
+(:User {name: "Ana Carla Santos"})-[:WATCHED {rating: 9}]->(n72)-[:IN_GENRE]->(:Genre {type: "Ficção Científica"}),
+(:Actor {name: "Alexandre Rodrigues"})-[:ACTED_IN]->(n77:Movie {title: "Cidade de Deus"})<-[:DIRECTED]-(:Director {name: "Fernando Meirelles"}),
+(:User {name: "Mendes"})-[:WATCHED {rating: 9}]->(n77)-[:IN_GENRE]->(:Genre {type: "Policial Investigativo"}),
+(:Actor {name: "Tom Hardy"})-[:ACTED_IN]->(n82:Movie {title: "Mad Max: Estrada da Fúria"})<-[:DIRECTED]-(:Director {name: "George Miller"}),
+(:User {name: "Santos"})-[:WATCHED {rating: 9}]->(n82)-[:IN_GENRE]->(:Genre {type: "Ação"}),
+(:Actor {name: "Andrew Garfield"})-[:ACTED_IN]->(n87:Movie {title: "O Silêncio"})<-[:DIRECTED]-(:Director {name: "Martin Scorsese"}),
+(:User {name: "Oliveira"})-[:WATCHED {rating: 7}]->(n87)-[:IN_GENRE]->(:Genre {type: "Cristão"}),
+(:Actor {name: "Jonathan Roumie"})-[:ACTED_IN]->(n92:Series {title: "The Chosen"})<-[:DIRECTED]-(:Director {name: "Dallas Jenkins"}),
+(:User {name: "Maria Castro"})-[:WATCHED {rating: 9}]->(n92)-[:IN_GENRE]->(:Genre {type: "Cristão"}),
+(:Actor {name: "Neil deGrasse Tyson"})-[:ACTED_IN]->(n97:Series {title: "Cosmos: Uma Odisseia no Espaço-Tempo"})<-[:DIRECTED]-(:Director {name: "Brannon Braga"}),
+(:User {name: "Ribeiro"})-[:WATCHED {rating: 9}]->(n97)-[:IN_GENRE]->(:Genre {type: "Documentário"}),
+(:Actor {name: "Tom Cruise"})-[:ACTED_IN]->(n102:Movie {title: "Top Gun: Maverick"})<-[:DIRECTED]-(:Director {name: "Martin Scorsese"}),
+(:User {name: "Rocha"})-[:WATCHED {rating: 8}]->(n102)-[:IN_GENRE]->(:Genre {type: "Ação"}),
+(:Actor {name: "Bryce Dallas Howard"})-[:ACTED_IN]->(n107:Series {title: "Black Mirror"})<-[:DIRECTED]-(:Director {name: "Charlie Brooker"}),
+(:User {name: "Martins"})-[:WATCHED {rating: 9}]->(n107)-[:IN_GENRE]->(:Genre {type: "Ficção Científica"}),
+(:Actor {name: "Pedro Pascal"})-[:ACTED_IN]->(n112:Series {title: "The Last of Us"})<-[:DIRECTED]-(:Director {name: "Craig Mazin"}),
+(:User {name: "Antônio João Mendes"})-[:WATCHED {rating: 9}]->(n112)-[:IN_GENRE]->(:Genre {type: "Ação"}),
+(:Actor {name: "Caitríona Balfe"})-[:ACTED_IN]->(n117:Series {title: "Outlander"})<-[:DIRECTED]-(:Director {name: "Ronald D. Moore"}),
+(:User {name: "Fernando Costa"})-[:WATCHED {rating: 9}]->(n117)-[:IN_GENRE]->(:Genre {type: "Romance"});
+
+MATCH p=()-[]->() RETURN p LIMIT 450;
