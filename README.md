@@ -506,10 +506,6 @@ MATCH p=()-[]->() RETURN p LIMIT 450;
 
 [Baixar / Abrir documento](/assets/BootCamp%20NEO4J_Projeto1_Alvaro.docx)
 
-<iframe name="preview" src="" style="width:100%;height:600px;border:1px solid #ccc;"></iframe>
-<a href="/assets/BootCamp%20NEO4J_Projeto1_Alvaro.docx" target="preview">Abrir no frame</a>
-
-
 ## 👨‍💻 Desenvolvedor
 
 <p>
