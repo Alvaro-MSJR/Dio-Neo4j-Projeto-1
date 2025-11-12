@@ -510,8 +510,12 @@ MATCH p=()-[]->() RETURN p LIMIT 450;
 
 <iframe src="/assets/BootCamp NEO4J_Projeto1_Alvaro.docx" width="400" height="400" frameborder="1"></iframe>
 
-<p>// code .... </p>p
+<p>// code .... </p>
 [Baixar/abrir Word]("/assets/BootCamp NEO4J_Projeto1_Alvaro.docx")
+
+<p>// code ....1 </p>
+<iframe src="https://view.officeapps.live.com/op/embed.aspx?src=https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPO/main/assets/BootCamp%20NEO4J_Projeto1_Alvaro.docx" width="100%" height="200"></iframe>
+
 
 ## 👨‍💻 Desenvolvedor
 
