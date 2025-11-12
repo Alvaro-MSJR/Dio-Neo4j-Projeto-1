@@ -497,14 +497,18 @@ MATCH p=()-[]->() RETURN p LIMIT 450;
 	Acreditamos que para o trabalho em questão podemos observar as versões e aplicações dos 2 scripts.
 
 <p><p align="left">
-<img width="25" src="/workspaces/Dio-Neo4j-Projeto-1/assets/image/extra_icone.JPG"> Extras
-</p></p> 
-
-// ...existing code...
-<p><p align="left">
 <img width="25" src="/workspaces/Dio-Neo4j-Projeto-1/assets/image/extra_icone.JPG"> EXTRAS
 </p></p> 
-// ...existing code...
+
+### Arquivos compilados
+
+* Aqui temos um arquivo do tipo word com todo o projeto.
+
+<iframe src="/workspaces/Dio-Neo4j-Projeto-1/assets/BootCamp NEO4J_Projeto1_Alvaro.docx" width="400" height="400"></iframe>
+
+// code .. 
+
+<iframe src="/workspaces/Dio-Neo4j-Projeto-1/assets/BootCamp NEO4J_Projeto1_Alvaro.docx" width="400" height="400" frameborder="1"></iframe>
 
 ## 👨‍💻 Desenvolvedor
 
