@@ -76,7 +76,7 @@ Como entregar esse projeto?
   3) Aqui apresentamos o esboço do projeto (imagem abaixo):
 
       <p align="center">
-       <img width="400" src="/workspaces/Dio-Neo4j-Projeto-1/assets/image/Projeto_1_Arrows_App_Draft v1.png">
+       <img width="400" src="/assets/image/Projeto_1_Arrows_App_Draft v1.png">
       </p>
 <p>&emsp;&emsp;
 Temos na figura, acima :</p>
@@ -93,21 +93,21 @@ Temos na figura, acima :</p>
   4)  Agora vemos como ficou o modelo que foi desenhado no Arrows App, dentro do banco Neo4J. 
 
 <p align="center">
- <img width="1000" src="/workspaces/Dio-Neo4j-Projeto-1/assets/image/visualisation_0.png"></p>
+ <img width="1000" src="/assets/image/visualisation_0.png"></p>
 
    5) Agora iremos ver uma imagem gerada pelo Neo4J, nesta imagem foi gerada após termos refatorado o script que foi gerado pelo Arrows.app
 
  <p align="center">
- <img width="1000" src="/workspaces/Dio-Neo4j-Projeto-1/assets/image/visualisation_Geral.png"></p>
+ <img width="1000" src="/assets/image/visualisation_Geral.png"></p>
 
         * Agora ver mais proximo o  grafo, com mais detalhes
 <p align="center">
-<img width="400" src="/workspaces/Dio-Neo4j-Projeto-1/assets/image/visualisation_1.png"></p>
+<img width="400" src="/assets/image/visualisation_1.png"></p>
 
 
     * Um pouco mais de detalhes
 <p align="center">
-           <img width="400" src="/workspaces/Dio-Neo4j-Projeto-1/assets/image/visualisation_Geral_com_foco.png"></p>
+           <img width="400" src="/assets/image/visualisation_Geral_com_foco.png"></p>
 
 6) Script gerado no arrows.app.
 <p align="left">
@@ -497,18 +497,21 @@ MATCH p=()-[]->() RETURN p LIMIT 450;
 	Acreditamos que para o trabalho em questão podemos observar as versões e aplicações dos 2 scripts.
 
 <p><p align="left">
-<img width="25" src="/workspaces/Dio-Neo4j-Projeto-1/assets/image/extra_icone.JPG"> EXTRAS
+<img width="25" src="/assets/image/extra_icone.JPG"> EXTRAS
 </p></p> 
 
 ### Arquivos compilados
 
 * Aqui temos um arquivo do tipo word com todo o projeto.
 
-<iframe src="/workspaces/Dio-Neo4j-Projeto-1/assets/BootCamp NEO4J_Projeto1_Alvaro.docx" width="400" height="400"></iframe>
+<iframe src="/assets/BootCamp NEO4J_Projeto1_Alvaro.docx" width="400" height="400"></iframe>
 
-// code .. 
+<p>// code .. </p>p
 
-<iframe src="/workspaces/Dio-Neo4j-Projeto-1/assets/BootCamp NEO4J_Projeto1_Alvaro.docx" width="400" height="400" frameborder="1"></iframe>
+<iframe src="/assets/BootCamp NEO4J_Projeto1_Alvaro.docx" width="400" height="400" frameborder="1"></iframe>
+
+<p>// code .... </p>p
+[Baixar/abrir Word]("/assets/BootCamp NEO4J_Projeto1_Alvaro.docx")
 
 ## 👨‍💻 Desenvolvedor
 
